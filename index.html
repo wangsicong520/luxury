@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dedicated to Luxury</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background-color: #111;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.3em;
+      color: #f0c040;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 500px;
+      margin-bottom: 1.5em;
+    }
+
+    img {
+      max-width: 250px;
+      border-radius: 12px;
+      margin-bottom: 1.5em;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+
+    a.button {
+      background-color: #25D366;
+      color: white;
+      padding: 15px 25px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.2em;
+      font-weight: bold;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #1DA851;
+    }
+
+    footer {
+      margin-top: 2em;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+
+  <!-- TikTok Pixel Code -->
+  <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject = t;
+      var ttq = w[t] = w[t] || [];
+      ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie"];
+      ttq.setAndDefer = function (t, e) {
+        t[e] = function () {
+          t.push([e].concat(Array.prototype.slice.call(arguments, 0)))
+        }
+      };
+      for (var i = 0; i < ttq.methods.length; i++) {
+        ttq.setAndDefer(ttq, ttq.methods[i])
+      }
+      ttq.instance = function (t) {
+        var e = ttq._i[t] || [];
+        for (var n = 0; n < ttq.methods.length; n++) {
+          ttq.setAndDefer(e, ttq.methods[n])
+        }
+        return e
+      };
+      ttq.load = function (e, n) {
+        var i = "https://analytics.tiktok.com/i18n/pixel/events.js";
+        ttq._i = ttq._i || {};
+        ttq._i[e] = [];
+        ttq._i[e]._u = i;
+        ttq._t = ttq._t || {};
+        ttq._t[e] = +new Date;
+        ttq._o = ttq._o || {};
+        ttq._o[e] = n || {};
+        var a = document.createElement("script");
+        a.type = "text/javascript";
+        a.async = !0;
+        a.src = i + "?sdkid=" + e + "&lib=" + t;
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(a, s)
+      };
+
+      ttq.load('D1NQEIJC77UD8FVUT6DG');
+      ttq.page();
+    }(window, document, 'ttq');
+  </script>
+  <!-- End TikTok Pixel Code -->
+</head>
+
+<body>
+  <h1>Worldwide Free Shipping</h1>
+  <p>We carry all luxury brands' products.<br><em>Dedicated to Luxury.</em></p>
+
+  <img src="watch.jpg" alt="Luxury Watch" />
+
+  <a class="button" href="https://wa.me/85261320274" target="_blank">Contact Us via WhatsApp</a>
+
+  <footer>
+    &copy; 2025 Luxury Select
+  </footer>
+</body>
+</html>
